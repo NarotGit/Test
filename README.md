@@ -26,7 +26,7 @@ v.	Visualizing Heat map and Scatter plots for numerical data
       10)  SHAP : Performed SHAP analysis on trained model: from summary plot
 •	The y-axis indicates the variable name, in order of importance from top to bottom. The value next to them is the mean SHAP value.
 •	On the x-axis is the SHAP value. Indicates how much is the change in log-odds. From this number we can extract the probability of success
-
+ ![alt text](shapvalues_summary_plot.png)
  
 We can see that Var2,Category_C5, var1 and Rating are important variables influencing  model.
 
